@@ -22,16 +22,16 @@ const AuthLayout = ({children}: Props ) => {
                         <h1 className="h2-bold text-dark100_light900">
                             Join DevFlow
                         </h1>
-                        <p className="paragraph-regular text-dark500_light400">
+                        <p className="paragraph-regular text-dark500_light400 py-2">
                             To get your questions answered
                         </p>
+                    </div>
                         <Image
                             src="images/site-logo.svg"
                             alt="DevFlow Logo"
                             width={50} height={50}
-                            className="object-contain"
+                            className="object-contain py-4"
                         />
-                    </div>
                 </div>
                 {children}
                 <SocialAuthForm />
